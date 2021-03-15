@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwiftExpressWS</name>
+    </assembly>
+    <members>
+        <member name="T:SwiftExpressWS.Alert.SwiftExpressWSAlert">
+            <summary>
+            Summary description for SwiftExpressWSAlert
+            </summary>
+        </member>
+        <member name="M:SwiftExpressWS.Alert.SwiftExpressWSAlert.GetAlerts(System.String,System.String@)">
+            <summary>
+            Método para obtener alertas 
+            </summary>
+            <param name="cn">conexión</param>
+            <param name="pResult">Resultado</param>
+            <returns>Result DataSet</returns>
+            <remarks>DB Object: SONDA_ALERTS</remarks> 
+        </member>
+        <member name="M:SwiftExpressWS.Alert.SwiftExpressWSAlert.InsertAlert(System.String,System.String,System.Int32,System.String,System.String@)">
+            <summary>
+            Método para insertar alerta.
+            </summary>
+            <param name="cn">Conexión</param>
+            <param name="alertName">Nombre</param>
+            <param name="alertPerc">Perc</param>
+            <param name="alertMessage">Mensaje</param>
+            <param name="pResult">Resultado</param>
+            <returns>Operación Exitosa</returns>
+            <remarks>DB Object: SONDA_ALERTS</remarks> 
+        </member>
+        <member name="M:SwiftExpressWS.Alert.SwiftExpressWSAlert.UpdateAlert(System.String,System.String,System.Int32,System.String,System.String@)">
+            <summary>
+            Método para actualizar alerta.
+            </summary>
+            <param name="cn">Conexión</param>
+            <param name="alertName">Nombre</param>
+            <param name="alertPerc">Perc</param>
+            <param name="alertMessage">Mensaje</param>
+            <param name="pResult">Resultado</param>
+            <returns>Operación Exitosa</returns>
+            <remarks>DB Object: SWIFT_SP_UPDATE_ALERT</remarks> 
+        </member>
+        <member name="M:SwiftExpressWS.Alert.SwiftExpressWSAlert.DeleteAlert(System.String,System.String,System.String@)">
+            <summary>
+            Método para eliminar una alerta.
+            </summary>
+            <param name="cn">Conexión</param>
+            <param name="alertName">Nombre</param>
+            <param name="pResult">Resultado</param>
+            <returns>Operación Exitosa</returns>
+            <remarks>DB Object: SWIFT_SP_DELETE_ALERT</remarks> 
+        </member>
+        <member name="T:SwiftExpressWS.Batch.SwiftExpressWSBatch">
+            <summary>
+            Summary description for SwiftExpressWSBatch </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Branch.SwiftExpressWSBranch">
+            <summary>
+            Summary description for SwiftExpressWSBranch
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Classification.SwiftExpressWSClassification">
+            <summary>
+            Summary description for SwiftExpressWSClassification
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Count.SwiftExpresWSCount">
+            <summary>
+            Summary description for SwiftExpresWSCount
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Customer.SwiftExpressWSCustomer">
+            <summary>
+            Summary description for SwiftExpressWSCustomer
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Driver.SwiftExpressWSDriver">
+            <summary>
+            Summary description for SwiftExpressWSDriver
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Freight.SwiftExpressWSFreight">
+            <summary>
+            Summary description for SwiftExpressWSFreight
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Income.SwiftExpressWSIncome">
+            <summary>
+            Summary description for SwiftExpressWSIncome
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Inventory.SwiftExpressWSInventory">
+            <summary>
+            Summary description for SwiftExpressWSInventory
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Invoice.SwiftExpressWsInvoice">
+            Descripción breve de SwiftExpressWsInvoice
+        </member>
+        <member name="T:SwiftExpressWS.Location.SwiftExpressWSLocation">
+            <summary>
+            Summary description for SwiftExpressWSLocation
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Login.SwiftExpressWSLogin">
+            <summary>
+            Summary description for SwiftExpressWSLogin
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Manifest.SwiftExpressWSManifest">
+            <summary>
+            Summary description for SwiftExpressWSManifest
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Orders.SwiftExpressWSOrders">
+            <summary>
+            Summary description for SwiftExpressWSOrders
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.PaymentMethod.SwiftExpressWSPaymentMethod">
+            <summary>
+            Summary description for SwiftExpressWSPaymentMethod
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Picking.SwiftExpressWSPicking">
+            <summary>
+            Summary description for SwiftExpressWSPicking
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Portfolio.SwiftExpressWsoPortfolio">
+            <summary>
+            Descripción breve de SwiftExpressWSOPortfolio
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.PriceList.SwiftExpressWsoPriceList">
+            <summary>
+            Descripción breve de SwiftExpressWsoPriceList
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Provider.SwiftExpressWSProvider">
+            <summary>
+            Summary description for SwiftExpressWSProvider
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.QueryList.SwiftExpressWSQueryList">
+            <summary>
+            Summary description for SwiftExpressWSQueryList
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Resolution.SwiftExpressWsoResolution">
+            <summary>
+            Summary description for SwiftExpressWsoResolution
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Route.SwiftExpressWSRoute">
+            <summary>
+            Summary description for SwiftExpressWSRoute
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Seller.SwiftExpressWSSeller">
+            <summary>
+            Summary description for SwiftExpressWSSeller
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.SKU.SwiftExpressWssku">
+            <summary>
+            Summary description for SwiftExpressWSSKU
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Tag.SwiftExpressWSTag">
+            <summary>
+            Summary description for SwiftExpressWSTag
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Task.SwiftExpressWSTask">
+            <summary>
+            Summary description for SwiftExpressWSTask
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Transaction.SwiftExpressWSTxn">
+            <summary>
+            Summary description for SwiftExpressWSTxn
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Users.SwiftExpressWSUsers">
+            <summary>
+            Summary description for SwiftExpressWSUsers
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.Vehicle.SwiftExpressWSVehicle">
+            <summary>
+            Summary description for SwiftExpressWSVehicle
+            </summary>
+        </member>
+        <member name="T:SwiftExpressWS.SwiftExpressWSWarehouse">
+            <summary>
+            Summary description for SwiftExpressWSWarehouse
+            </summary>
+        </member>
+    </members>
+</doc>
